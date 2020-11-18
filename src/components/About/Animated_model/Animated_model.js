@@ -53,7 +53,7 @@ function Birds() {
     const bird = ['Stork', 'Parrot', 'Flamingo'][Math.round(Math.random() * 2)]
     let speed = bird === 'Stork' ? 0.5 : bird === 'Flamingo' ? 2 : 5
     let factor = bird === 'Stork' ? 0.5 + Math.random() : bird === 'Flamingo' ? 0.25 + Math.random() : 1 + Math.random() - 0.5
-    return <Bird key={i} position={[x, y, z]} rotation={[0, x > 0 ? Math.PI : 0, 0]} speed={speed} factor={factor} url={`../${bird}.glb`} />
+    return <Bird key={i} position={[x, y, z]} rotation={[0, x > 0 ? Math.PI : 0, 0]} speed={speed} factor={factor} url={`/SnapySketch/${bird}.glb`} />
   })
 }
 
