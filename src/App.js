@@ -13,7 +13,7 @@ class App extends Component {
   
   componentDidMount() {
     window.addEventListener("popstate", () => {
-        this.props.history.push({pathname:'/'});
+        this.props.history.push({pathname:process.env.PUBLIC_URL + '/'});
         this.props.ShowSelected();
         this.props.ShowPopUp();
     });
@@ -24,10 +24,10 @@ class App extends Component {
     return (
         <div className="App" style={{backgroundColor:this.props.check?'darkslategrey':'white',transition:'all 0.6s'}}>
             <DisplayPage>
-              <Route path="/About" component={About} exact/>
-              <Route path="/Feedback" component={Feedback} exact/>
-              <Route path="/" component={SidePopUpView} exact/>
-              <Route path="/" component={FileOperations} exact/>
+              <Route path={process.env.PUBLIC_URL + "/About"} component={About} exact/>
+              <Route path={process.env.PUBLIC_URL + "/Feedback"} component={Feedback} exact/>
+              <Route path={process.env.PUBLIC_URL + "/"} component={SidePopUpView} exact/>
+              <Route path={process.env.PUBLIC_URL + "/"} component={FileOperations} exact/>
             </DisplayPage> 
         </div>
     );
