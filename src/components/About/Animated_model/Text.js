@@ -3,7 +3,7 @@ import React, { useMemo } from 'react'
 import { useLoader, useUpdate } from 'react-three-fiber'
 
 export default function({ children, vAlign = 'center', hAlign = 'center', size = 1, color = '#000000', ...props }) {
-  const font = useLoader(THREE.FontLoader, process.env.PUBLIC_URL+'/bold.blob')
+  const font = useLoader(THREE.FontLoader, 'https://github.com/avinashgpai/SnapySketch/bold.blob')
   const config = useMemo(
     () => ({ font, size: 40, height: 30, curveSegments: 32, bevelEnabled: true, bevelThickness: 6, bevelSize: 2.5, bevelOffset: 0, bevelSegments: 8 }),
     [font]
