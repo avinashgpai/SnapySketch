@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SnapySketch/precache-manifest.b10565d7be5d919511facb584fbb12ad.js"
+  "/SnapySketch/precache-manifest.54974f90fb8bd7e46e33c4762616d3d1.js"
 );
 
 self.addEventListener('message', (event) => {
