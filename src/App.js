@@ -25,7 +25,7 @@ class App extends Component {
         <div className="App" style={{backgroundColor:this.props.check?'darkslategrey':'white',transition:'all 0.6s'}}>
             <DisplayPage>
               <Route path="/SnapySketch/About" component={About} exact/>
-              <Route path="/SnapySkecth/Feedback" component={Feedback} exact/>
+              <Route path="/SnapySketch/Feedback" component={Feedback} exact/>
               <Route path="/SnapySketch/" component={SidePopUpView} exact/>
               <Route path="/SnapySketch/" component={FileOperations} exact/>
             </DisplayPage> 
