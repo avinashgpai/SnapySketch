@@ -30,7 +30,7 @@ class DisplayPage extends Component {
             transition:'all 0.6s'
         }
         
-        if(this.state.width<=860 && this.props.popUp && this.props.history.location.pathname==='/SnapySketch/'){
+        if(this.state.width<=860 && this.props.popUp && this.props.history.location.pathname==='/'){
             style.overflowX="scroll"
         }
         else{
@@ -43,7 +43,7 @@ class DisplayPage extends Component {
                 <main style={style}>
                     {this.props.children}
                 </main>
-                {this.props.history.location.pathname!=='/SnapySketch/'?<Footer/>:null}
+                {this.props.history.location.pathname!=='/'?<Footer/>:null}
             </Hoc>    
         );
     }
