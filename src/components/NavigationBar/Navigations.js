@@ -5,9 +5,9 @@ import classes from '../../styles/Navigations.module.css';
 const navigations = () =>{
     return(
         <ul className={ classes.NavigationItems}>
-            <Navigation name='Home' path='/'/>
-            <Navigation name='About' path='/About'/>
-            <Navigation name='Feedback' path='/Feedback'/>
+            <Navigation name='Home' path={process.env.PUBLIC_URL +'/'}/>
+            <Navigation name='About' path={process.env.PUBLIC_URL +'/About'}/>
+            <Navigation name='Feedback' path={process.env.PUBLIC_URL +'/Feedback'}/>
         </ul>
     );
 }
