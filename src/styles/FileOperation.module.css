@@ -1,0 +1,55 @@
+.operation{
+    width:100%;
+}
+
+.light_operation_img{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 1px solid silver;
+    border-radius: 15px;
+    background-color: white;
+    transition: all 0.6s;
+    cursor: pointer;
+    z-index: 100;
+    color:black;
+    padding: 45% 0;
+    font-size: 60px;
+    margin: 30px 0;
+}
+
+.dark_operation_img{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 1px solid silver;
+    border-radius: 15px;
+    background-color: silver;
+    transition: all 0.6s;
+    cursor: pointer;
+    z-index: 100;
+    padding: 45% 0;
+    font-size: 60px;
+    color:black;
+    margin: 30px 0;
+}
+
+.operation:hover{
+    animation: operation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes operation {
+    0% {transform: scale(1.0);}
+  100% {transform: scale(1.05);}
+}
+
+@media(max-width:410px){
+    .light_operation_img,.dark_operation_img{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+} 

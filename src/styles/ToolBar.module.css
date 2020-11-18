@@ -1,0 +1,40 @@
+.logo{
+    height: 80%;
+    margin: 10px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.toolBar{
+    height: 90px;
+    width:100%;
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.toggle{
+    align-content: center;
+    margin: 25px;
+}
+
+.dark{
+    background-color: rgb(1, 16, 20)!important;
+    transition: all 0.6s;
+}
+
+.light{
+    background-color: rgb(49, 65, 90)!important;
+    transition: all 0.6s;
+}
+
+@media (max-width:750px){
+    .DesktopOnly{
+        display: none;
+    }
+}

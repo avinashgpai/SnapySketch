@@ -1,0 +1,85 @@
+.NavigationItem{
+    margin: 0 !important;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.NavigationItem a{
+    color: lightsteelblue;
+    height: 100%;
+    box-sizing: border-box;
+    display: block; 
+    padding: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.NavigationItem a:hover{
+    background-color: rgba(133, 141, 145, 0.877);
+    color:white;
+}
+
+.NavigationItem a:active, .NavigationItem a.active{
+    background-color: rgba(133, 141, 145, 0.877);
+    color: white;
+}
+.NavContainer
+{
+    margin: 0 auto;
+	text-align: center;
+}
+
+.NavContainer a, .NavigationItem a.active
+{
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.NavigationItem a.active:before{
+    position: absolute;
+    opacity: 1;
+    width: 100%;
+    height: 4px;
+    content: '';
+    background: lightblue;
+}
+
+.NavigationItem a:before
+{
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 4px;
+    content: '';
+    background: lightblue;
+    transition: all 0.6s;
+}
+
+.NavigationItem a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+.NavigationItem a:hover:before
+{
+    opacity: 1;
+    width: 100%;
+}
+
+.dark{
+    background-color:  rgb(1, 16, 20)!important;
+    color:lightsteelblue!important;
+    transition: all 0.6s;
+}
+
+.light{
+    background-color: rgb(49, 65, 90)!important;
+    color:black!important;
+    transition: all 0.6s;
+}

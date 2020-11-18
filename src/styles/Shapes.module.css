@@ -1,0 +1,33 @@
+.Shapes{
+    width: 60px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px 10px;
+    display: inline-flex;
+    flex-flow: column;
+    margin-top: -10px;
+    margin-left: -50px;
+}
+
+.Shape,.Selected{
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.Shape{
+    border: 1px solid rgb(199, 196, 196);
+}
+
+.Selected{
+    border: 1px solid black;
+}
+
+.Shapes :hover{
+    border-color: black;
+}

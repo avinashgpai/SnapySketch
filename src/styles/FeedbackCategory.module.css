@@ -1,0 +1,14 @@
+.FeedbackCategory{
+    display: inline-flex;
+    flex-flow: row;
+    align-content: space-around;
+}
+
+@media (max-width:750px){
+    .FeedbackCategory{
+        display: block;
+        flex-flow: column;
+        margin: 0;
+        align-content: space-around;
+    }
+}

@@ -1,0 +1,71 @@
+.wholeSet{
+    display: inline-flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.TwoD,.pencil,.eraser,.moveResize{
+    display: block;
+    background-color: white;
+    width: 75vw;
+    height:500px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.TwoD{
+    cursor: crosshair;
+}
+
+.moveResize{
+    cursor: auto;
+}
+
+.pencil{
+    cursor: url('../assets/images/p.png'),crosshair;
+}
+
+.eraser{
+    cursor: url('../assets/images/e.png'),auto;
+}
+
+.download,.save{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.option{
+    margin-top: -10px;
+}
+
+.feature{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:white;
+    width: 80px;
+    margin: 5px 5px;
+}
+
+.feature{
+    margin: 5px 5px;
+}
+
+.Range{
+    width: 70px;
+    transform: rotate(-90deg) translateX(-25px) translateY(25px);
+    margin-top:0;
+}
+
+.img{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+.drawingSet{
+    display: inline-block;
+    margin-bottom: 10px;
+}

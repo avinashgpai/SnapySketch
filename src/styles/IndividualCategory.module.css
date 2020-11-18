@@ -1,0 +1,26 @@
+.Individual{
+    box-sizing: border-box;
+    width:250px;
+    padding: 30px;
+    border: 1px solid rgb(158, 154, 154);
+    border-radius: 5px;
+    margin: 2%;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.click{
+    border:1px solid rgb(7, 88, 7);
+    background-color:  lightgray;
+} 
+
+.Individual:hover{
+    background-color: lightgray;
+}
+
+@media(max-width:750px){
+    .Individual{
+        width:70%;
+    }
+}

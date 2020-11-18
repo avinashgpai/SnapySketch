@@ -1,0 +1,41 @@
+.Operations{
+    display: inline-flex;
+    box-sizing: border-box;
+    margin: 70px 0;
+    padding: 0;
+}
+
+.dark{
+    background-color: darkslategrey!important;
+    color:white!important;
+    transition: all 0.6s;
+}
+
+.light{
+    background-color:white!important;
+    color:black!important;
+    transition: all 0.6s;
+}
+
+.col{
+    width: 50%;
+
+}
+@media(max-width:750px){
+    .Operations{
+        margin: 30px 0;
+        padding: 20px 0;
+    }
+}
+
+@media(max-width:410px){
+    .Operations{
+        display: inline;
+    }
+}
+  
+@media(min-height:810px) and (min-width:750px){
+    .Operations{
+        margin: 250px 0;
+    }
+}

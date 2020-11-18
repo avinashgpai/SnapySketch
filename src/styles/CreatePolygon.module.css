@@ -1,0 +1,39 @@
+.polygon{
+    position: fixed;
+    right:3%;
+    top: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 220px;
+    margin-top: -175px;
+}
+
+.coordinates_set{
+    height: 275px;
+    overflow-y: scroll;
+}
+
+.row{
+    display: block;
+    margin: 2px 5px;
+}
+
+.input{
+    display: inline-flex;
+}
+
+.button{
+    background-color: thistle;
+    color:black;
+    padding: 5px;
+    border: 1px solid thistle;
+    border-radius: 50px;
+    margin: 5px 0;
+    width: 100px;
+    cursor: pointer;
+}
+
+input{
+    margin-right: 10px;
+}
