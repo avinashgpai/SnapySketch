@@ -13,7 +13,7 @@ class App extends Component {
   
   componentDidMount() {
     window.addEventListener("popstate", () => {
-        this.props.history.push({pathname:'/SnapySketch'});
+        this.props.history.push({pathname:'/SnapySketch/'});
         this.props.ShowSelected();
         this.props.ShowPopUp();
     });
