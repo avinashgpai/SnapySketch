@@ -26,8 +26,8 @@ class App extends Component {
             <DisplayPage>
               <Route path="/SnapySketch/About" component={About} exact/>
               <Route path="/SnapySkecth/Feedback" component={Feedback} exact/>
-              <Route path="/SnapySketch" component={SidePopUpView} exact/>
-              <Route path="/SnapySketch" component={FileOperations} exact/>
+              <Route path="/SnapySketch/" component={SidePopUpView} exact/>
+              <Route path="/SnapySketch/" component={FileOperations} exact/>
             </DisplayPage> 
         </div>
     );
