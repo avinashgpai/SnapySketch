@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7aa3c92cba8b434babed66afbb6b10c7",
+    "revision": "156d856ff8ac44fe83b206bc1ba2ef37",
     "url": "/SnapySketch/index.html"
   },
   {
-    "revision": "6eddff372918ea76fbe6",
+    "revision": "477143b9b178ad24eebc",
     "url": "/SnapySketch/static/css/main.99f91cbd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SnapySketch/static/js/2.bece80eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eddff372918ea76fbe6",
-    "url": "/SnapySketch/static/js/main.fad8d39e.chunk.js"
+    "revision": "477143b9b178ad24eebc",
+    "url": "/SnapySketch/static/js/main.d2c70708.chunk.js"
   },
   {
     "revision": "48f51e791a987e22ad12",
