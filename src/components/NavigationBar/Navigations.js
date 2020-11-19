@@ -6,8 +6,8 @@ const navigations = () =>{
     return(
         <ul className={ classes.NavigationItems}>
             <Navigation name='Home' path={process.env.PUBLIC_URL +'/'}/>
-            <Navigation name='About' path={process.env.PUBLIC_URL +'/About'}/>
-            <Navigation name='Feedback' path={process.env.PUBLIC_URL +'/Feedback'}/>
+            <Navigation name='About' path={process.env.PUBLIC_URL +'/About/'}/>
+            <Navigation name='Feedback' path={process.env.PUBLIC_URL +'/Feedback/'}/>
         </ul>
     );
 }

@@ -24,8 +24,8 @@ class App extends Component {
     return (
         <div className="App" style={{backgroundColor:this.props.check?'darkslategrey':'white',transition:'all 0.6s'}}>
             <DisplayPage>
-              <Route path={process.env.PUBLIC_URL + "/About"} component={About} exact/>
-              <Route path={process.env.PUBLIC_URL + "/Feedback"} component={Feedback} exact/>
+              <Route path={process.env.PUBLIC_URL + "/About/"} component={About} exact/>
+              <Route path={process.env.PUBLIC_URL + "/Feedback/"} component={Feedback} exact/>
               <Route path={process.env.PUBLIC_URL + "/"} component={SidePopUpView} exact/>
               <Route path={process.env.PUBLIC_URL + "/"} component={FileOperations} exact/>
             </DisplayPage> 
