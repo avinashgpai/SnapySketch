@@ -8,9 +8,9 @@ class Sidedrawer extends Component {
         return(
             <Hoc>
                 <ul classes={classes.SideDrawer}>
-                    <Navigation name='Home' path='/'/>
-                    <Navigation name='About' path='/About'/>
-                    <Navigation name='Feedback' path='/Feedback'/>
+                    <Navigation name='Home' path={process.env.PUBLIC_URL + '/'}/>
+                    <Navigation name='About' path={process.env.PUBLIC_URL + '/About'}/>
+                    <Navigation name='Feedback' path={process.env.PUBLIC_URL + '/Feedback'}/>
                 </ul>    
             </Hoc>
         );
