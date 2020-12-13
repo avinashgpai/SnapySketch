@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SnapySketch/static/css/main.99f91cbd.chunk.css",
-    "main.js": "/SnapySketch/static/js/main.c505f01d.chunk.js",
-    "main.js.map": "/SnapySketch/static/js/main.c505f01d.chunk.js.map",
+    "main.js": "/SnapySketch/static/js/main.0b1f1204.chunk.js",
+    "main.js.map": "/SnapySketch/static/js/main.0b1f1204.chunk.js.map",
     "runtime-main.js": "/SnapySketch/static/js/runtime-main.611823e9.js",
     "runtime-main.js.map": "/SnapySketch/static/js/runtime-main.611823e9.js.map",
     "static/js/2.bece80eb.chunk.js": "/SnapySketch/static/js/2.bece80eb.chunk.js",
     "static/js/2.bece80eb.chunk.js.map": "/SnapySketch/static/js/2.bece80eb.chunk.js.map",
     "index.html": "/SnapySketch/index.html",
-    "precache-manifest.5f4bb86a7b7f5670bfb9cea61e32114d.js": "/SnapySketch/precache-manifest.5f4bb86a7b7f5670bfb9cea61e32114d.js",
+    "precache-manifest.c1d3853fbb4c1022557a16e9f72aca08.js": "/SnapySketch/precache-manifest.c1d3853fbb4c1022557a16e9f72aca08.js",
     "service-worker.js": "/SnapySketch/service-worker.js",
     "static/css/main.99f91cbd.chunk.css.map": "/SnapySketch/static/css/main.99f91cbd.chunk.css.map",
     "static/js/2.bece80eb.chunk.js.LICENSE.txt": "/SnapySketch/static/js/2.bece80eb.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.611823e9.js",
     "static/js/2.bece80eb.chunk.js",
     "static/css/main.99f91cbd.chunk.css",
-    "static/js/main.c505f01d.chunk.js"
+    "static/js/main.0b1f1204.chunk.js"
   ]
 }
