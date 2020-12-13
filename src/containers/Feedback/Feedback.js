@@ -132,7 +132,7 @@ class Feedback extends Component{
                 <div className={this.props.check ? classes.dark:classes.light}>
                     <h1 className={this.props.check ? classes.dark:classes.light}>Your Feedback</h1>
                     <center><hr/></center>
-                    <p>We would like your feedback to improve my website.</p>
+                    <p>I would like your feedback to improve my website.</p>
                     <p>What is your opinion on this page?</p>
                     <form id="FeedbackForm">
                         <div className={classes.feedback}>
